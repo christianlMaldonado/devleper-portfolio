@@ -10,12 +10,13 @@ export default function intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>WEBIT </h2>
+          <h2>WebIT Consulting </h2>
           <h1> by Chrisitian Maldonado</h1>
-          <h3> Take your imagination to the web</h3>
-        
-        
+          <h3> Take Your Imagination To The Web</h3>        
         </div>
+        <a href="#portfolio">
+          <img src="assets/down.png" alt=""/>
+        </a>
         
         
         </div> 
