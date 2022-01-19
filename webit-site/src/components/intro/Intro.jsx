@@ -10,7 +10,7 @@ export default function Intro() {
         showCursor: true,
         backDelay: 1500,
         backSpeed:60,
-        strings: ["Developer", "Designer", "Content Creation", "Marketing"],
+        strings: ["Developer", "Designer", "Content Creation"],
       });
     }, []);
     
@@ -24,8 +24,8 @@ export default function Intro() {
       
       <div className="right">
         <div className="wrapper">
-          <h1>WebIT Consulting </h1>
-          <h2> Take Your Imagination To The Web </h2>
+          <h3>Web Design + IT Consulting </h3>
+          <h2> Take Your Imagination To The Web</h2>
           <h3>
             Business <span ref={textRef}></span> 
           </h3>        
