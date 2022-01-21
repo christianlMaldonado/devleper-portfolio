@@ -4,7 +4,7 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
+      name: "Company 1",
       title: "Senior Developer",
       img:
         "assets/intropic.png",
@@ -14,8 +14,8 @@ export default function Testimonials() {
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Company 2",
+      title: "Co-Founder",
       img:
         "assets/intropic.png",
       icon: "assets/youtube.png",
@@ -25,8 +25,8 @@ export default function Testimonials() {
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Company 3",
+      title: "User",
       img:
         "assets/intropic.png",
       icon: "assets/linkedin.png",

@@ -7,27 +7,27 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Custom Websites for your business ",
+      title: "Business Developer",
+      desc:  
+        "Develop applications for real time needs for your company",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "Business Designer",
       desc:
-        "Refined Websites to make your business suceed without the mcuh need storage space",
+        "Your pesonal website that defines, You!",
       img:
         "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Business Content creation",
       desc:
-        "Market your imagination",
+        "Market your imagination and get your business rolling",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
@@ -38,7 +38,7 @@ export default function Works() {
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
-  
+
   return (
     <div className="works" id="works">
       <div
@@ -60,7 +60,7 @@ export default function Works() {
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src="../assets/digitalmarketing.jpeg"
                   alt=""
                 />
               </div>

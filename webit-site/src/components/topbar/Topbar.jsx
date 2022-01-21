@@ -1,19 +1,21 @@
 import './topbar.scss'
-import {Person, Mail} from "@material-ui/icons"
+import { Mail} from "@material-ui/icons"
+// import {Person} from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={"topbar " + (menuOpen && "active")} >
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo"> WebIT Consulting </a>
-                    <div className="itemcontainer">
+                    <a href="#intro" className="logo"> Christian Maldonado</a>
+                    {/* This allows to have phone number show up on topbar  */}
+                    {/* <div className="itemcontainer">
                         <Person className="icon"/>
-                        <span> Cell phone number here </span>
-                    </div>
+                        <span> 831-578-4909 </span>
+                    </div> */}
                     <div className="itemcontainer">
                         <Mail className="icon"/>
-                        <span> Business email here </span>
+                        <span> Chris.maldonado99@gmail.com </span>
                     </div>
                 </div>
                 
