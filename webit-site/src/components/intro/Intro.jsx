@@ -18,14 +18,14 @@ export default function Intro() {
       <div className="intro" id="intro">
         <div className="left">
           <div className="imgContainer">
-            <img src="assets/intro.png" alt="" />
+            <img src="assets/intropic4.png" alt="" />
           </div>
         </div>
       
       <div className="right">
         <div className="wrapper">
-          <h3>Web Design + IT Consulting </h3>
-          <h2> Take Your Imagination To The Web</h2>
+          <h1>Christian Maldonado </h1>
+          <h2> Turn Dreams Into Reality</h2>
           <h3>
             Business <span ref={textRef}></span> 
           </h3>        
