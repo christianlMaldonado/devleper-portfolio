@@ -4,35 +4,29 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Company 1",
-      title: "Senior Developer",
-      img:
-        "assets/intropic.png",
+      name: "Bit Academy",
+      title: "Developer",
+      img: "assets/Bitacademy.png",
       icon: "assets/twitter.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      desc: "We Love the work Christian has done on making this online school possible",
     },
     {
       id: 2,
-      name: "Company 2",
-      title: "Co-Founder",
-      img:
-        "assets/intropic.png",
+      name: "Origin Coast Coffee",
+      title: "Founder + Ceo",
+      img: "assets/coffee.jpg",
       icon: "assets/youtube.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      desc: "Christian has developed ground breaking applicaitons for us with simplicity in mind to keep our users engaged",
       featured: true,
     },
-    {
-      id: 3,
-      name: "Company 3",
-      title: "User",
-      img:
-        "assets/intropic.png",
-      icon: "assets/linkedin.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-    },
+    // {
+    //   id: 3,
+    //   name: "",
+    //   title: "User",
+    //   img: "assets/intropic.png",
+    //   icon: "assets/linkedin.png",
+    //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+    // },
   ];
   return (
     <div className="testimonials" id="testimonials">
