@@ -1,44 +1,44 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Origin Coast Coffee",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/coffee.jpg",
       link: "https://www.google.com/",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Website Design",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/Portfolio.jpeg",
       link: "https://www.google.com/",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "E-commerce Design",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/Ecommerce.jpeg",
       link: "https://www.google.com/",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Chatbot Integration",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/chatbot.png",
       link: "https://www.google.com/",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "Online Learning Applications",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/Bitacademy.png",
       link: "https://www.google.com/",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "Analytical Applications",
       img:
-        "../assets/digitalmarketing.jpeg",
+        "../assets/banking.jpeg",
       link: "https://www.google.com/",
     },
   ];

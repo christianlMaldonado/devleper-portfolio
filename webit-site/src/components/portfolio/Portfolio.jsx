@@ -19,7 +19,7 @@ import {
           },
           // {
           //   id: "web",
-          //   title: "Web App",
+          //   title: "Web Apps",
           // },
           // {
           //   id: "mobile",
@@ -59,7 +59,7 @@ import {
 
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1> 
+            <h1>Latest Projects</h1> 
             <ul> 
                 {list.map((item) => (
                     <PortfolioList
